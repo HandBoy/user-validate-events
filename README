@@ -1,0 +1,38 @@
+Redis Pub Sub
+Broker architetura
+
+    Composição de eventos, estados.
+    Recuperação de falhas entre o processamento dos eventos de um fluxo.
+
+# Git init commands
+git remote add origin https://github.com/HandBoy/user-validate-events.git
+git branch -M main
+git push -u origin main
+
+# Criando Projeto
+$ mkdir myproject
+$ cd myproject
+
+# Criando e Ativando Virtual Env
+$ python3 -m venv venv
+$ . venv/bin/activate
+
+# Instalando o Flask
+# pip install Flask
+
+## Admin
+
+
+## Validator
+Use this codebase for validate a new document
+docker-compose up
+
+
+## Docker
+### Run comands on docker
+
+docker-compose exec backend sh
+# python manage.py startapp users
+
+### References
+[Debugging Python within Docker]{https://gist.github.com/barseghyanartur/6f56bfe527d0d2863bc790798d439726}
